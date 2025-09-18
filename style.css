@@ -508,3 +508,44 @@ footer {
   background: #084298;
   color: #fff;
 }
+/* ===== About page styles ===== */
+.about-hero {
+  background: linear-gradient(120deg, #e6f2ff, #f8fbff);
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 1px solid #e6eef9;
+}
+.about-hero h1 { color: #0b5ed7; margin-bottom: 8px; }
+.about-hero .lead { color: #334155; max-width: 800px; margin: 0 auto; }
+
+.about-section, .mission-section, .team-section, .contact-cta {
+  padding: 40px 20px;
+}
+.container { max-width: 1000px; margin: 0 auto; }
+
+.three-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+.feature { background: #fff; padding: 18px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.06); }
+.feature h3 { color: #0b5ed7; margin-bottom: 8px; }
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+.team-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(12, 45, 88, 0.05);
+}
+.team-pic { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 4px solid #e8f2ff; margin-bottom: 12px; }
+
+.contact-cta { text-align: center; background: #f8fbff; border-top: 1px solid #e6eef9; }
+.contact-cta p { margin-bottom: 12px; }
