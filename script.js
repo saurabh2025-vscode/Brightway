@@ -1,0 +1,1 @@
+console.log("Brightway website loaded successfully!");
